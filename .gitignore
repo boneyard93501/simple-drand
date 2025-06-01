@@ -1,0 +1,14 @@
+# Rust/Cargo build output
+/target/
+/debug/
+/release/
+
+# Cargo lockfile for libraries (keep it for executables)
+/Cargo.lock
+
+# Backup files from rustfmt
+**/*.rs.bk
+
+# macOS system files
+.DS_Store
+
